@@ -21,8 +21,8 @@ export default function App() {
         setIsRandomLoading(false);
       })
       .catch((e) => {
-        alert(e);
         console.log(e);
+        alert(e);
       });
   };
 
